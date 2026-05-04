@@ -1,1 +1,11 @@
 @import "tailwindcss";
+.input-style {
+  border: 2px solid #dbeafe;
+  border-radius: 1rem;
+  padding: 1rem 1.25rem;
+  outline: none;
+}
+
+.input-style:focus {
+  border-color: #1238A8;
+}
